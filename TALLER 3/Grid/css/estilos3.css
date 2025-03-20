@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter', 'sans-serif';
+    font-size: 18px;
+}
+
+.container{
+    padding: 20px;
+    height: 100vh;
+    background-color: #eee;
+
+    /*building colums*/
+    display: grid;
+    grid-template-columns: 100px 2fr 1fr;
+    gap: 5px;
+
+    /* repeated sizes*/
+    /* grid-template-columns: repeat (3, 1fr);*/
+    }
+
+    .item{
+        background-color: #02993e;
+        border-radius: 1rem;
+        color: #fff;
+        display: grid;
+        place-items: center;
+    }
